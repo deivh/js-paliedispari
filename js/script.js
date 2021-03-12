@@ -1,6 +1,8 @@
 //es palindrome
 function palindromeChk(word) {
-    var wordPalindr = word.split('');
+    var wordPalindr = word.toLowerCase();
+    wordPalindr = wordPalindr.split('');
+
     var wordPalindReverse = wordPalindr;
     wordPalindReverse = Object.assign([], wordPalindReverse);
     wordPalindReverse.reverse();
