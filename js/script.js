@@ -16,7 +16,6 @@
 //         console.log("La parola non è palindroma");
 //     }
 
-
 // }
 
 // var wordPl = prompt("Inserisci una parola");
@@ -44,6 +43,29 @@
 //      palindrome(wordPl); }
 
 // }
+
+//es palindromo versione 3 con ciclo
+// function isPalindrome(word){
+//     var lng = word.length;
+//     var palLng = Math.floor(lng / 2);
+//     for (var i=0; i<palLng; i++)
+//     var finalI = lng - i - 1;
+//     var charI = word.charAt(i);
+//     var charFinalI = word.charAt(finalI);
+//     if (charI != charFinalI) {
+//         return false;
+//     }
+// }
+//     return true;
+// }
+
+// function es1() {
+//     var word = 'anbna';
+//     var isWordPalindrom = isPalindrom(word);
+//     console.log(word, isWordPalindrom);
+//     }
+
+
 
 //es tiro dei dadi
 function getRandomNum(min, max) {
